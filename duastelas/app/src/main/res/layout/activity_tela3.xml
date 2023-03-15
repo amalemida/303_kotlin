@@ -4,25 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".tela3">
 
-    <TextView
+    <Button
+        android:id="@+id/btnVoltar3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/txtStrAlo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="192dp"
+        android:text="Voltar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnGoToTela1"
+        android:id="@+id/btnBack1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="148dp"
-        android:layout_marginTop="176dp"
-        android:text="@string/strBtnGoToTela1"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="276dp"
+        android:text="Volta Início"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
