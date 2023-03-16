@@ -7,10 +7,10 @@ import android.util.Log
 import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
+
+    lateinit var btnGoToTela2 : Button
+
     override fun onCreate(savedInstanceState: Bundle?) {
-
-        lateinit var btnGoToTela2 : Button
-
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
